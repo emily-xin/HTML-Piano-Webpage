@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+<head>
+    <title>Emily Xin Final- contact</title>
+    <meta charset = "UTF-8">
+    <!-- width=device-width  sets  width of page to follow screen-width of  device.
+    initial-scale=1.0 part sets initial zoom level
+    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link href = "../css/central.css" rel = "stylesheet"> <!-- this link doesn't go out but in --> 
+</head>
+<body class = "contactPage">
+    <header class = "background">
+        <h1>The Art of Piano</h1>
+    </header>
+    <nav>
+        <a href = "../index.html" >Home</a>
+        <a href = "inspiration.html"> Inspiration</a>
+        <a href = "work.html">Work</a><!--every other pages goes into pages folder --> 
+        <a href = "about.html">About Me</a>
+        <a href = "contact.html" class = "current">Contact</a>
+    </nav>
+    <div class = "hero">
+        <h2>Contact Us!</h2>
+    </div>
+    <main>
+        <!--
+        <form action = "https://formsubmit.co/emilyxin777@gmail.com" method = "post" id = "webContact"> <!-- search engine is get, post is send a string of text --> 
+        <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+        <fieldset class = "personal" autocomplete> <!-- puts a box around elements -->
+        <legend> Personal Information</legend>
+        <label for = "firstName"> First Name: </label>
+            <input type = "text" name = "firstName" id = "firstName" required placeholder = "required" size = "50" maxlength = "30">
+            <!-- required fields, placeholder is like the light grey text --> 
+            <!-- maxlength, no longer than a certain amount of words --> 
+        <br> 
+        <label for = "lastName"> Last Name: </label>                      <!-- don't keep them together by doing this (: --> 
+            <input type = "text" name = "lastName" id = "lastName" required placeholder = "required" size = "50">
+        <br>
+        <label for = "email"> Email: </label>
+            <input type = "email" name = "email" id = "email" required placeholder = "required" size = "50">
+        <br>
+        <label for = "phone"> Phone Number: </label>
+            <input type = "tel" name = "phone" id = "phone" placeholder = "ex. ###-###-#### (optional)" size = "50" pattern = "[0-9]{3}-[0-9]{3}-[0-9]{4}">
+        <br>
+        
+        </fieldset>
+        <br>
+        <fieldset class = "personal">
+            <legend> Miscellaneous Information</legend>
+            <h2> Have you played piano before? </h2>
+                <!-- if label is before input then the statement will be before checkbox --> 
+                <!-- input(checkbox) --> 
+                <input type = "radio" name = "piano_play" id = "yes" value = "yes">
+                <label for = "yes"> Yes </label>
+                <input type = "radio" name = "piano_play" id = "no" value = "no">
+                <label for = "no"> No </label>
+            <br>
+            <br>
+            <h2> Would you like to recieve more information about piano? </h2>
+                <input type = "radio" name = "piano_info" id = "yes" value = "yes">
+                <label for = "yes"> Yes </label>
+                <input type = "radio" name = "piano_info" id = "no" value = "no">
+                <label for = "no"> No </label>
+                
+                <br> 
+                <br>
+                <label for = "comments"> What tips would you like for your piano journey? </label>
+                <br> 
+                <textarea rows = "10" cols = "50"></textarea>
+                <label for = "comments"> What questions do you have about piano? </label>
+                <br> 
+                <textarea rows = "10" cols = "50"></textarea>
+                
+        </fieldset>
+        <button type = "submit" value = "Submit" form = "webContact"> Submit </button>
+        <button type = "reset" value = "reset" form = "webContact"> Clear Form </button>
+    </form>
+    
+    <!-- ask Mr. Dion --> 
+    <article>
+        <h3> Personal Questions? </h3>
+        <p> email me at emilyxin777@gmail.com</p>
+    </article>
+     
+        
+    </main>
+    <footer>
+        <section>
+            <p>&copy; 2023 Emily Xin</p>
+        </section>
+        <section>
+            <nav>
+                <a href = "https://discordapp.com/users/exin5934">Discord</a>
+                <a href = "https://www.instagram.com/emily._.xin/">Instagram</a>
+                <a href = "https://www.snapchat.com/add/emily_xin19"> Snapchat</a>
+            </nav>
+        </section>
+    </footer>
+    
+</body>
+</html>
